@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'compile-css' ]
+2 info using npm@6.9.0
+3 info using node@v10.16.2
+4 verbose run-script [ 'precompile-css', 'compile-css', 'postcompile-css' ]
+5 info lifecycle mimin@1.0.0~precompile-css: mimin@1.0.0
+6 info lifecycle mimin@1.0.0~compile-css: mimin@1.0.0
+7 verbose lifecycle mimin@1.0.0~compile-css: unsafe-perm in lifecycle true
+8 verbose lifecycle mimin@1.0.0~compile-css: PATH: C:\Users\khoir\AppData\Roaming\nvm\v10.16.2\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\khoir\Project\programing\sass\qumpuland\node_modules\.bin;C:\Users\khoir\AppData\Roaming\nvm\v10.16.2\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\khoir\Project\programing\sass\qumpuland\node_modules\.bin;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\khoir\AppData\Local\atom;C:\Users\khoir\AppData\Local\Android\Sdk\platform-tools;C:\khoir\xampp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\khoir\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\khoir\Go\bin;C:\Users\khoir\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Users\khoir\AppData\Local\Google\Cloud SDK;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\khoir\.cargo\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\cmd;C:\Users\khoir\AppData\Local\atom;C:\Users\khoir\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\khoir;C:\Progr;C:\Users\khoir\AppData\Local\Programs\Microsoft VS Code\bin
+9 verbose lifecycle mimin@1.0.0~compile-css: CWD: C:\khoir\Project\programing\sass\qumpuland
+10 silly lifecycle mimin@1.0.0~compile-css: Args: [ '/d /s /c',
+10 silly lifecycle   'node-sass --include-path scss src/dists/scss/main.scss   src/dists/css/main.css' ]
+11 silly lifecycle mimin@1.0.0~compile-css: Returned: code: 1  signal: null
+12 info lifecycle mimin@1.0.0~compile-css: Failed to exec compile-css script
+13 verbose stack Error: mimin@1.0.0 compile-css: `node-sass --include-path scss src/dists/scss/main.scss   src/dists/css/main.css`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (C:\Users\khoir\AppData\Roaming\nvm\v10.16.2\node_modules\npm\node_modules\npm-lifecycle\index.js:301:16)
+13 verbose stack     at EventEmitter.emit (events.js:198:13)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Users\khoir\AppData\Roaming\nvm\v10.16.2\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid mimin@1.0.0
+15 verbose cwd C:\khoir\Project\programing\sass\qumpuland
+16 verbose Windows_NT 10.0.18363
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "compile-css"
+18 verbose node v10.16.2
+19 verbose npm  v6.9.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error mimin@1.0.0 compile-css: `node-sass --include-path scss src/dists/scss/main.scss   src/dists/css/main.css`
+22 error Exit status 1
+23 error Failed at the mimin@1.0.0 compile-css script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
