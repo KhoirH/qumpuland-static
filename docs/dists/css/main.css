@@ -7574,6 +7574,14 @@ html {
   .wrapper-image-side-2 {
     left: -165px; } }
 
+@media (max-width: 991.98px) {
+  .wrapper-brand {
+    padding-top: 150px !important; }
+  .wrapper-k-what {
+    margin-top: -200px !important; }
+  .item-portofolio {
+    width: 100% !important; } }
+
 @media (min-width: 768px) {
   .wrapper-image-side-2 {
     left: -560px; } }
