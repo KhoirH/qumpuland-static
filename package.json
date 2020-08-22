@@ -9,8 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss src/dists/scss/main.scss   src/dists/css/main.min.css --output-style compressed",
-    "compile-css": "node-sass --include-path scss src/dists/scss/main.scss   src/dists/css/main.css",
+    "build-css": "node-sass --include-path scss docs/dists/scss/main.scss   docs/dists/css/main.min.css --output-style compressed",
+    "compile-css": "node-sass --include-path scss docs/dists/scss/main.scss   docs/dists/css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run compile-css\""
   },
   "author": "",
